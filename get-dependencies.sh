@@ -6,7 +6,13 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-# pacman -Syu --noconfirm PACKAGESHERE
+pacman -Syu --noconfirm \
+    kvantum        \
+    kpat           \
+    lxqt-qtplugin  \
+    pipewire-audio \
+    pipewire-jack  \
+    qt6ct
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
