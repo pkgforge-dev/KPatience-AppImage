@@ -1,6 +1,6 @@
 <div align="center">
 
-# WIP KPatience-AppImage 🐧
+# KPatience-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/KPatience-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/KPatience-AppImage/releases/latest)
 [![CI Build Status](https://github.com/pkgforge-dev/KPatience-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/KPatience-AppImage/releases/latest)
