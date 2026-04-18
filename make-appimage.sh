@@ -11,12 +11,12 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/256x256/apps/kpat.png
 export DESKTOP=/usr/share/applications/org.kde.kpat.desktop
 export STARTUPWMCLASS=org.kde.kpat
-export DEPLOY_QT=1
-export QT_DIR=qt6
-export DEPLOY_PIPEWIRE=1
+export DEPLOY_PULSE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/kpat /usr/share/kpat /usr/share/knsrcfiles /usr/share/config.kcfg /usr/lib/libKirigami*.so* /usr/share/carddecks
+
+echo 'ANYLINUX_DO_NOT_LOAD_LIBS=libpipewire-0.3.so*:${ANYLINUX_DO_NOT_LOAD_LIBS}' >> ./AppDir/.env
 
 # Additional changes can be done in between here
 
