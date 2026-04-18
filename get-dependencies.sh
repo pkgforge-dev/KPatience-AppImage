@@ -10,8 +10,6 @@ pacman -Syu --noconfirm \
     kvantum        \
     kpat           \
     lxqt-qtplugin  \
-    pipewire-audio \
-    pipewire-jack  \
     qt6ct
 
 echo "Installing debloated packages..."
