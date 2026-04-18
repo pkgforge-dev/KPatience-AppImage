@@ -16,7 +16,7 @@ export QT_DIR=qt6
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/kpat /usr/share/kpat /usr/share/knsrcfiles /usr/share/config.kcfg
+quick-sharun /usr/bin/kpat /usr/share/kpat /usr/share/knsrcfiles /usr/share/config.kcfg /usr/lib/libKirigamiPolyfill.so*
 
 # Additional changes can be done in between here
 
